@@ -1,16 +1,4 @@
-# js-paliedispari
-
-Esercizio: Pali e Dispari
-Repo: js-paliedispari
-
-<!-- 1 -->
-
-Palidroma
-
-1. Chiedere all'utente di inserire una parola
-2. Creare una funzione per capire se la parola inserita è palindroma
-
-<!-- 2 -->
+/*
 
 Pari e Dispari
 
@@ -20,3 +8,5 @@ Pari e Dispari
 4. Sommiamo i due numeri
 5. Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 6. Dichiariamo chi ha vinto.
+
+*/
