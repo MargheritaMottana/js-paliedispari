@@ -30,13 +30,15 @@
 
         <p>
             Scegli se giocare con un numero <span class="bold"> pari </span> o un numero <span class="bold"> dispari
-            </span>, poi inserisci nel
-            prompt un numero da 1 a 5.
+            </span>, <br>
+            poi inserisci nel form un numero da 1 a 5.
         </p>
 
         <section class="container">
 
             <div class="row">
+
+                <!-- pari -->
                 <div class="col-sm-6 mb-3 mb-sm-0">
 
                     <div class="card">
@@ -47,12 +49,40 @@
                             </h5>
 
                             <!-- bottone da ascoltare per rivelare il form -->
-                            <button id="pari" class="btn btn-outline-dark">Pari</button>
+                            <button id="pari" class="pari btn btn-outline-dark">Pari</button>
 
                             <!-- form per far immettere il numero -->
-                            <form id="myform" class="none input-group mt-3">
+                            <form id="myform" class="myform none input-group mt-3">
 
-                                <input id="numInput" type="number" class="form-control"
+                                <input id="numInput" type="number" class="numInput form-control"
+                                    placeholder="Inserisci il tuo numero..." min="1" max="5" required>
+
+                                <button class="btn btn-outline-dark" type="submit" id="button-addon2">Invia</button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- dispari -->
+                <div class="col-sm-6 mb-3 mb-sm-0">
+
+                    <div class="card">
+                        <div class="card-body">
+
+                            <h5 class="card-title mb-3">
+                                Questo bottone gioca con un numero <span class="bold"> dispari </span>
+                            </h5>
+
+                            <!-- bottone da ascoltare per rivelare il form -->
+                            <button id="dispari" class="pari btn btn-outline-dark">Dispari</button>
+
+                            <!-- form per far immettere il numero -->
+                            <form id="myformDispari" class="myform none input-group mt-3">
+
+                                <input id="numInputDispari" type="number" class="numInput form-control"
                                     placeholder="Inserisci il tuo numero..." min="1" max="5" required>
 
                                 <button class="btn btn-outline-dark" type="submit" id="button-addon2">Invia</button>
@@ -67,6 +97,10 @@
             </div>
 
         </section>
+
+        <p class="risultato mt-3" id="risultato">
+
+        </p>
 
     </main>
 
