@@ -48,13 +48,13 @@ PariButton.addEventListener("click", function () {
             if (sum % 2 == 0) {
 
                 // comunico in pagina se l'utente ha vinto
-                document.getElementById("risultato").innerText = 'Il numero che ho genera to è: ' + x + '. La somma è: ' + sum + '. Complimenti, hai vinto!';
+                document.getElementById("risultato").innerText = 'Il numero che ho generato è: ' + x + '. La somma è: ' + sum + '. Complimenti, hai vinto!';
                 return true;
             }
             else {
 
                 // comunico in pagina se l'utente ha perso
-                document.getElementById("risultato").innerText = 'Il numero che ho genera to è: ' + x + '. La somma è: ' + sum + '. Hai perso, ritenta!';
+                document.getElementById("risultato").innerText = 'Il numero che ho generato è: ' + x + '. La somma è: ' + sum + '. Hai perso, ritenta!';
                 return false;
             }
         };
@@ -89,12 +89,12 @@ DispariButton.addEventListener("click", function () {
         function numeroFinale() {
             if (sum % 2 != 0) {
 
-                document.getElementById("risultato").innerText = 'Il numero che ho genera to è: ' + x + '. La somma è: ' + sum + '. Complimenti, hai vinto!';
+                document.getElementById("risultato").innerText = 'Il numero che ho generato è: ' + x + '. La somma è: ' + sum + '. Complimenti, hai vinto!';
                 return true;
             }
             else {
 
-                document.getElementById("risultato").innerText = 'Il numero che ho genera to è: ' + x + '. La somma è: ' + sum + '. Hai perso, ritenta!';
+                document.getElementById("risultato").innerText = 'Il numero che ho generato è: ' + x + '. La somma è: ' + sum + '. Hai perso, ritenta!';
                 return false;
             }
         };
