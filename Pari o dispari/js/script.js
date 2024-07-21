@@ -10,3 +10,9 @@ Pari e Dispari
 6. Dichiariamo chi ha vinto.
 
 */
+
+document.getElementById("pari").addEventListener("click", function () {
+
+    const number = parseInt(prompt('Inserisci un numero da 1 a 5:'))
+
+});

@@ -1,0 +1,16 @@
+* {
+    font-family: "Spectral", serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
