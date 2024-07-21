@@ -20,6 +20,8 @@ PariButton.addEventListener("click", function () {
 
     // Dichiarare il form
     const form = document.getElementById('myform');
+
+    // tolgo la classe che lo rendeva invisibile per far sì che l'utente possa accedere
     form.classList.remove('none');
 
     //ascolto il submit del form per ricavare il numero
