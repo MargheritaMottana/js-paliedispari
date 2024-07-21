@@ -45,22 +45,25 @@
                             <h5 class="card-title mb-3">
                                 Questo bottone gioca con un numero <span class="bold"> pari </span>
                             </h5>
-                            <button id="pari" class="btn btn-primary">Pari</button>
+
+                            <!-- bottone da ascoltare per rivelare il form -->
+                            <button id="pari" class="btn btn-outline-dark">Pari</button>
+
+                            <!-- form per far immettere il numero -->
+                            <form id="myform" class="none input-group mt-3">
+
+                                <input id="numInput" type="number" class="form-control"
+                                    placeholder="Inserisci il tuo numero..." min="1" max="5" required>
+
+                                <button class="btn btn-outline-dark" type="submit" id="button-addon2">Invia</button>
+
+                            </form>
+
                         </div>
 
                     </div>
                 </div>
 
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title mb-3">
-                                Questo bottone gioca con un numero <span class="bold"> dispari </span>
-                            </h5>
-                            <button id="dispari" class="btn btn-primary">Dispari</button>
-                        </div>
-                    </div>
-                </div>
             </div>
 
         </section>

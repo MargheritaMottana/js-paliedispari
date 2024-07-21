@@ -11,8 +11,29 @@ Pari e Dispari
 
 */
 
-document.getElementById("pari").addEventListener("click", function () {
+// dichiaro il bottone pari
+const PariButton = document.getElementById('pari');
 
-    const number = parseInt(prompt('Inserisci un numero da 1 a 5:'))
+// ascolto il click sul bottone
+PariButton.addEventListener("click", function () {
+    console.log('ho cliccato');
 
+    // Dichiarare il form
+    const form = document.getElementById('myform');
+    form.classList.remove('none');
+
+    //ascolto il submit del form per ricavare il numero
+    form.addEventListener('submit', function (event) {
+
+        // prevengo il comportamento
+        event.preventDefault();
+
+        // dichiaro il contenuto dell'input
+        const numInput = document.getElementById('numInput')
+
+        // prendo e dichiaro il valore dell'input, mettendo in parseInt per ottenere un numero
+        const numUtente = parseInt(numInput.value);
+        console.log('numUtente', numUtente, typeof numUtente);
+
+    });
 });
